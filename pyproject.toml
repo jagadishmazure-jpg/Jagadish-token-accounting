@@ -9,7 +9,7 @@ description = "End-to-end token accounting with real tokenizers: from-scratch BP
 requires-python = ">=3.11"
 license = { text = "MIT" }
 readme = "README.md"
-dependencies = ["tiktoken==0.12.0"]
+dependencies = ["tiktoken==0.14.0"]
 
 [project.optional-dependencies]
 spm = ["sentencepiece==0.2.2"]
