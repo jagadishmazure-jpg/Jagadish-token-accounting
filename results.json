@@ -1,0 +1,422 @@
+{
+  "tokenizers": [
+    "scratch-bpe-512",
+    "cl100k_base",
+    "o200k_base",
+    "sentencepiece-unigram-32k"
+  ],
+  "compare": {
+    "scratch-bpe-512": {
+      "english": {
+        "tokens": 354,
+        "words": 94,
+        "chars": 591,
+        "tokens_per_word": 3.766,
+        "tokens_per_char": 0.599
+      },
+      "code": {
+        "tokens": 409,
+        "words": 95,
+        "chars": 588,
+        "tokens_per_word": 4.305,
+        "tokens_per_char": 0.696
+      },
+      "json": {
+        "tokens": 567,
+        "words": 66,
+        "chars": 644,
+        "tokens_per_word": 8.591,
+        "tokens_per_char": 0.88
+      },
+      "hindi": {
+        "tokens": 1050,
+        "words": 84,
+        "chars": 404,
+        "tokens_per_word": 12.5,
+        "tokens_per_char": 2.599
+      },
+      "telugu": {
+        "tokens": 1076,
+        "words": 58,
+        "chars": 400,
+        "tokens_per_word": 18.552,
+        "tokens_per_char": 2.69
+      },
+      "emoji": {
+        "tokens": 270,
+        "words": 63,
+        "chars": 293,
+        "tokens_per_word": 4.286,
+        "tokens_per_char": 0.922
+      }
+    },
+    "cl100k_base": {
+      "english": {
+        "tokens": 111,
+        "words": 94,
+        "chars": 591,
+        "tokens_per_word": 1.181,
+        "tokens_per_char": 0.188
+      },
+      "code": {
+        "tokens": 189,
+        "words": 95,
+        "chars": 588,
+        "tokens_per_word": 1.989,
+        "tokens_per_char": 0.321
+      },
+      "json": {
+        "tokens": 234,
+        "words": 66,
+        "chars": 644,
+        "tokens_per_word": 3.545,
+        "tokens_per_char": 0.363
+      },
+      "hindi": {
+        "tokens": 403,
+        "words": 84,
+        "chars": 404,
+        "tokens_per_word": 4.798,
+        "tokens_per_char": 0.998
+      },
+      "telugu": {
+        "tokens": 685,
+        "words": 58,
+        "chars": 400,
+        "tokens_per_word": 11.81,
+        "tokens_per_char": 1.712
+      },
+      "emoji": {
+        "tokens": 128,
+        "words": 63,
+        "chars": 293,
+        "tokens_per_word": 2.032,
+        "tokens_per_char": 0.437
+      }
+    },
+    "o200k_base": {
+      "english": {
+        "tokens": 109,
+        "words": 94,
+        "chars": 591,
+        "tokens_per_word": 1.16,
+        "tokens_per_char": 0.184
+      },
+      "code": {
+        "tokens": 190,
+        "words": 95,
+        "chars": 588,
+        "tokens_per_word": 2.0,
+        "tokens_per_char": 0.323
+      },
+      "json": {
+        "tokens": 234,
+        "words": 66,
+        "chars": 644,
+        "tokens_per_word": 3.545,
+        "tokens_per_char": 0.363
+      },
+      "hindi": {
+        "tokens": 115,
+        "words": 84,
+        "chars": 404,
+        "tokens_per_word": 1.369,
+        "tokens_per_char": 0.285
+      },
+      "telugu": {
+        "tokens": 144,
+        "words": 58,
+        "chars": 400,
+        "tokens_per_word": 2.483,
+        "tokens_per_char": 0.36
+      },
+      "emoji": {
+        "tokens": 108,
+        "words": 63,
+        "chars": 293,
+        "tokens_per_word": 1.714,
+        "tokens_per_char": 0.369
+      }
+    },
+    "sentencepiece-unigram-32k": {
+      "english": {
+        "tokens": 124,
+        "words": 94,
+        "chars": 591,
+        "tokens_per_word": 1.319,
+        "tokens_per_char": 0.21
+      },
+      "code": {
+        "tokens": 270,
+        "words": 95,
+        "chars": 588,
+        "tokens_per_word": 2.842,
+        "tokens_per_char": 0.459
+      },
+      "json": {
+        "tokens": 339,
+        "words": 66,
+        "chars": 644,
+        "tokens_per_word": 5.136,
+        "tokens_per_char": 0.526
+      },
+      "hindi": {
+        "tokens": 170,
+        "words": 84,
+        "chars": 404,
+        "tokens_per_word": 2.024,
+        "tokens_per_char": 0.421
+      },
+      "telugu": {
+        "tokens": 125,
+        "words": 58,
+        "chars": 400,
+        "tokens_per_word": 2.155,
+        "tokens_per_char": 0.312
+      },
+      "emoji": {
+        "tokens": 100,
+        "words": 63,
+        "chars": 293,
+        "tokens_per_word": 1.587,
+        "tokens_per_char": 0.341
+      }
+    }
+  },
+  "accounting_tokenizer": "o200k_base",
+  "accounting": {
+    "short_chat": {
+      "tokens": {
+        "system": 40,
+        "tools": 0,
+        "docs": 0,
+        "history": 0,
+        "user": 8,
+        "format_overhead": 13,
+        "total": 61
+      },
+      "share_pct": {
+        "system": 65.57,
+        "tools": 0.0,
+        "docs": 0.0,
+        "history": 0.0,
+        "user": 13.11,
+        "format_overhead": 21.31
+      }
+    },
+    "support_with_history": {
+      "tokens": {
+        "system": 40,
+        "tools": 0,
+        "docs": 0,
+        "history": 66,
+        "user": 11,
+        "format_overhead": 33,
+        "total": 150
+      },
+      "share_pct": {
+        "system": 26.67,
+        "tools": 0.0,
+        "docs": 0.0,
+        "history": 44.0,
+        "user": 7.33,
+        "format_overhead": 22.0
+      }
+    },
+    "agent_with_tools": {
+      "tokens": {
+        "system": 40,
+        "tools": 163,
+        "docs": 0,
+        "history": 66,
+        "user": 14,
+        "format_overhead": 33,
+        "total": 316
+      },
+      "share_pct": {
+        "system": 12.66,
+        "tools": 51.58,
+        "docs": 0.0,
+        "history": 20.89,
+        "user": 4.43,
+        "format_overhead": 10.44
+      }
+    },
+    "rag_with_docs": {
+      "tokens": {
+        "system": 40,
+        "tools": 163,
+        "docs": 155,
+        "history": 36,
+        "user": 9,
+        "format_overhead": 23,
+        "total": 426
+      },
+      "share_pct": {
+        "system": 9.39,
+        "tools": 38.26,
+        "docs": 36.38,
+        "history": 8.45,
+        "user": 2.11,
+        "format_overhead": 5.4
+      }
+    }
+  },
+  "estimate_error_pct": {
+    "cl100k_base": {
+      "english": {
+        "actual": 111,
+        "chars_rule": 35.1,
+        "words_rule": 12.6
+      },
+      "code": {
+        "actual": 189,
+        "chars_rule": -21.2,
+        "words_rule": -33.3
+      },
+      "json": {
+        "actual": 234,
+        "chars_rule": -29.9,
+        "words_rule": -62.4
+      },
+      "hindi": {
+        "actual": 403,
+        "chars_rule": -74.4,
+        "words_rule": -72.2
+      },
+      "telugu": {
+        "actual": 685,
+        "chars_rule": -85.1,
+        "words_rule": -88.8
+      },
+      "emoji": {
+        "actual": 128,
+        "chars_rule": -41.4,
+        "words_rule": -34.4
+      }
+    },
+    "o200k_base": {
+      "english": {
+        "actual": 109,
+        "chars_rule": 37.6,
+        "words_rule": 14.7
+      },
+      "code": {
+        "actual": 190,
+        "chars_rule": -21.6,
+        "words_rule": -33.7
+      },
+      "json": {
+        "actual": 234,
+        "chars_rule": -29.9,
+        "words_rule": -62.4
+      },
+      "hindi": {
+        "actual": 115,
+        "chars_rule": -10.4,
+        "words_rule": -2.6
+      },
+      "telugu": {
+        "actual": 144,
+        "chars_rule": -29.2,
+        "words_rule": -46.5
+      },
+      "emoji": {
+        "actual": 108,
+        "chars_rule": -30.6,
+        "words_rule": -22.2
+      }
+    },
+    "sentencepiece-unigram-32k": {
+      "english": {
+        "actual": 124,
+        "chars_rule": 21.0,
+        "words_rule": 0.8
+      },
+      "code": {
+        "actual": 270,
+        "chars_rule": -44.8,
+        "words_rule": -53.3
+      },
+      "json": {
+        "actual": 339,
+        "chars_rule": -51.6,
+        "words_rule": -74.0
+      },
+      "hindi": {
+        "actual": 170,
+        "chars_rule": -39.4,
+        "words_rule": -34.1
+      },
+      "telugu": {
+        "actual": 125,
+        "chars_rule": -18.4,
+        "words_rule": -38.4
+      },
+      "emoji": {
+        "actual": 100,
+        "chars_rule": -25.0,
+        "words_rule": -16.0
+      }
+    }
+  },
+  "spm_unknown_pct": {
+    "english": 0.0,
+    "code": 3.7,
+    "json": 6.5,
+    "hindi": 49.4,
+    "telugu": 46.4,
+    "emoji": 23.0
+  },
+  "replay_trim": {
+    "requests": 1200,
+    "mode": "trim",
+    "outcomes": {
+      "ok": 782,
+      "rate_limited": 104,
+      "token_budget_exceeded": 314
+    },
+    "trimmed": 3,
+    "total_cost_usd": "0.533142",
+    "input_cost_usd": "0.182874",
+    "output_cost_usd": "0.350268",
+    "by_customer_usd": {
+      "Copperleaf Studios": "0.136802",
+      "Harbor Lane Clinic": "0.143658",
+      "Northgate Tutors": "0.121164",
+      "Pinecrest Legal": "0.131518"
+    },
+    "tokens_used": {
+      "Copperleaf Studios": 149812,
+      "Harbor Lane Clinic": 149845,
+      "Northgate Tutors": 149804,
+      "Pinecrest Legal": 149799
+    }
+  },
+  "replay_reject": {
+    "requests": 1200,
+    "mode": "reject",
+    "outcomes": {
+      "input_over_cap": 3,
+      "ok": 835,
+      "rate_limited": 104,
+      "token_budget_exceeded": 258
+    },
+    "trimmed": 0,
+    "total_cost_usd": "0.548636",
+    "input_cost_usd": "0.175085",
+    "output_cost_usd": "0.373551",
+    "by_customer_usd": {
+      "Copperleaf Studios": "0.138940",
+      "Harbor Lane Clinic": "0.148424",
+      "Northgate Tutors": "0.129303",
+      "Pinecrest Legal": "0.131970"
+    },
+    "tokens_used": {
+      "Copperleaf Studios": 149893,
+      "Harbor Lane Clinic": 149707,
+      "Northgate Tutors": 149788,
+      "Pinecrest Legal": 149816
+    }
+  }
+}

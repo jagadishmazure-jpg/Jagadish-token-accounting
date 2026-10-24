@@ -1,0 +1,141 @@
+{
+  "model": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+  "rows": {
+    "short_chat": {
+      "reported_prompt": 63,
+      "reported_completion": 29,
+      "by_counter": {
+        "model-own-tokenizer": {
+          "predicted_prompt": 63,
+          "prompt_drift_pct": 0.0,
+          "predicted_completion": 29,
+          "completion_drift_pct": 0.0
+        },
+        "cl100k_base": {
+          "predicted_prompt": 61,
+          "prompt_drift_pct": -3.17,
+          "predicted_completion": 29,
+          "completion_drift_pct": 0.0
+        },
+        "o200k_base": {
+          "predicted_prompt": 61,
+          "prompt_drift_pct": -3.17,
+          "predicted_completion": 27,
+          "completion_drift_pct": -6.9
+        }
+      },
+      "naive_model_tokenizer": {
+        "user_text_only": {
+          "predicted_prompt": 8,
+          "prompt_drift_pct": -87.3
+        },
+        "content_without_framing": {
+          "predicted_prompt": 50,
+          "prompt_drift_pct": -20.63
+        }
+      }
+    },
+    "support_with_history": {
+      "reported_prompt": 155,
+      "reported_completion": 12,
+      "by_counter": {
+        "model-own-tokenizer": {
+          "predicted_prompt": 155,
+          "prompt_drift_pct": 0.0,
+          "predicted_completion": 12,
+          "completion_drift_pct": 0.0
+        },
+        "cl100k_base": {
+          "predicted_prompt": 150,
+          "prompt_drift_pct": -3.23,
+          "predicted_completion": 12,
+          "completion_drift_pct": 0.0
+        },
+        "o200k_base": {
+          "predicted_prompt": 150,
+          "prompt_drift_pct": -3.23,
+          "predicted_completion": 10,
+          "completion_drift_pct": -16.67
+        }
+      },
+      "naive_model_tokenizer": {
+        "user_text_only": {
+          "predicted_prompt": 11,
+          "prompt_drift_pct": -92.9
+        },
+        "content_without_framing": {
+          "predicted_prompt": 122,
+          "prompt_drift_pct": -21.29
+        }
+      }
+    },
+    "agent_with_tools": {
+      "reported_prompt": 317,
+      "reported_completion": 18,
+      "by_counter": {
+        "model-own-tokenizer": {
+          "predicted_prompt": 317,
+          "prompt_drift_pct": 0.0,
+          "predicted_completion": 18,
+          "completion_drift_pct": 0.0
+        },
+        "cl100k_base": {
+          "predicted_prompt": 309,
+          "prompt_drift_pct": -2.52,
+          "predicted_completion": 15,
+          "completion_drift_pct": -16.67
+        },
+        "o200k_base": {
+          "predicted_prompt": 316,
+          "prompt_drift_pct": -0.32,
+          "predicted_completion": 14,
+          "completion_drift_pct": -22.22
+        }
+      },
+      "naive_model_tokenizer": {
+        "user_text_only": {
+          "predicted_prompt": 17,
+          "prompt_drift_pct": -94.64
+        },
+        "content_without_framing": {
+          "predicted_prompt": 284,
+          "prompt_drift_pct": -10.41
+        }
+      }
+    },
+    "rag_with_docs": {
+      "reported_prompt": 427,
+      "reported_completion": 18,
+      "by_counter": {
+        "model-own-tokenizer": {
+          "predicted_prompt": 427,
+          "prompt_drift_pct": 0.0,
+          "predicted_completion": 18,
+          "completion_drift_pct": 0.0
+        },
+        "cl100k_base": {
+          "predicted_prompt": 419,
+          "prompt_drift_pct": -1.87,
+          "predicted_completion": 15,
+          "completion_drift_pct": -16.67
+        },
+        "o200k_base": {
+          "predicted_prompt": 426,
+          "prompt_drift_pct": -0.23,
+          "predicted_completion": 15,
+          "completion_drift_pct": -16.67
+        }
+      },
+      "naive_model_tokenizer": {
+        "user_text_only": {
+          "predicted_prompt": 9,
+          "prompt_drift_pct": -97.89
+        },
+        "content_without_framing": {
+          "predicted_prompt": 404,
+          "prompt_drift_pct": -5.39
+        }
+      }
+    }
+  }
+}
