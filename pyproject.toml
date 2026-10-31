@@ -15,7 +15,7 @@ dependencies = ["tiktoken==0.12.0"]
 spm = ["sentencepiece==0.2.2"]
 local = ["llama-cpp-python==0.3.36"]
 charts = ["matplotlib==3.11.2"]
-dev = ["pytest==8.4.2", "ruff==0.14.1", "sentencepiece==0.2.2"]
+dev = ["pytest==8.4.2", "ruff==0.17.3", "sentencepiece==0.2.2"]
 
 [project.scripts]
 tokacct = "tokacct.cli:main"
